@@ -1,10 +1,8 @@
 import React, { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
-import { ToastContainer, toast } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
+
 
 export default function Login() {
-  const navigate =  useNavigate()
+  // const navigate =  useNavigate()
    let [logindata,setlogindata] =  useState({
     email:"",
     password:""
@@ -25,12 +23,12 @@ export default function Login() {
         let passwordRegex = /^[a-zA-Z0-9!@#$%^&*]{6,16}$/;
         
         if (emailRegex.test(email)&&passwordRegex.test(password)) {
-          toast.success("Login successfully");
+          // toast.success("Login successfully");
           setTimeout(() => {
-            navigate("/nav/Home")
+            // navigate("/nav/Home")
           }, 1000);
           }else{
-            toast.error("invalid email id and password should be b/w 6 to 16 characters")
+            // toast.error("invalid email id and password should be b/w 6 to 16 characters")
           }
         }
       }
@@ -54,7 +52,7 @@ export default function Login() {
                 <button className='loginbtn' onClick={submit} >Login</button>
         </div>
     </div>
-    <ToastContainer />
+    {/* <ToastContainer /> */}
     </>
   )
 }
