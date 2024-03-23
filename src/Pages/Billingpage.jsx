@@ -56,11 +56,14 @@ export default function Billingpage() {
     let inputs = document.querySelectorAll(".form-control");
     let focused = document.activeElement;
     if (event.key === "Backspace") {
+      console.log(inputs.length);
       for (let i = 0; i < inputs.length; i++) {
-        if (inputs[i] === focused) {
-          let nextIndex = (i - 1) % inputs.length;
-          inputs[nextIndex].focus();
-          break;
+        if (inputs[i].value == "") {
+          if (inputs[i] === focused) {
+            let nextIndex = (i - 1) % inputs.length;
+            inputs[nextIndex].focus();
+            break;
+          }
         }
       }
     }
@@ -96,7 +99,8 @@ export default function Billingpage() {
       <br />
       <h1 className="billPage">Billing page</h1>
       <marquee className="note">
-        Note - (After fill all input field you press calculate then generate bill and last press submit button)
+        Note - (After fill all input field you press calculate then generate
+        bill and last press submit button)
       </marquee>
       <br />
       <div className="bill">
