@@ -8,7 +8,7 @@ export default function Sidenav() {
       <Link to='/nav/Home'>Home</Link>
       <Link to='/nav/customer'>Customer List</Link>
       <Link to='/nav/billing'>Bill Generator</Link>
-      <Link to='/'>Logout</Link>
+      <Link to='/sample'>Logout</Link>
     </div>
     <div className='box'>
       <Outlet/>

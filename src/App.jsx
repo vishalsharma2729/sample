@@ -12,7 +12,7 @@ export default function App() {
   return (
         <BrowserRouter>
        <Routes>
-       <Route path='/' element={<Login/>}/>
+       <Route path='/sample' element={<Login/>}/>
         <Route path='/nav' element={<Sidenav/>}>
         <Route path='Home' element={<Home/>}/>
             <Route path='billing' element={<Billingpage/>}/>
