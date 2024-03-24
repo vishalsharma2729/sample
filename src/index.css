@@ -278,6 +278,7 @@ li {
   background-image: url("https://cdn.pixabay.com/photo/2018/04/29/21/27/nature-3361174_1280.jpg");
   background-size:auto;
   margin-left: -4.5rem;
+  height: auto;
 }
 ul{
   margin: 0 3rem;
@@ -338,7 +339,6 @@ ul{
   }
 
   .customerpage {
-    margin-left: -4.5rem;
     padding: 0;
     height: 100vh;
   }
