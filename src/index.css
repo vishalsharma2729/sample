@@ -124,6 +124,15 @@
     border-radius: 15px;
   }
 
+  .home{
+    background-image: url("https://cdn.pixabay.com/photo/2018/04/29/21/27/nature-3361174_1280.jpg");
+    background-size:auto;
+  }
+
+  .box {
+    flex: 1;
+   margin-left: 4.5rem;
+  }
 
   
 }
@@ -347,9 +356,11 @@ td {
 
   .bill {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+    
   }
+
   .billing {
     display: flex;
     justify-content: center;
@@ -373,7 +384,7 @@ td {
   }
 
   .customerpage {
-    margin-left: 0.5rem;
+    margin-left: -4.5rem;
     padding: 0;
     height: 100vh;
   }
@@ -395,7 +406,10 @@ td {
   td {
     background-color: #a37a22;
   }
+
 }
+
+/* end**********************************************8 */
 
 li {
   font-size: 24px;
@@ -413,6 +427,7 @@ li {
 .home{
   background-image: url("https://cdn.pixabay.com/photo/2018/04/29/21/27/nature-3361174_1280.jpg");
   background-size:auto;
+  margin-left: -4.5rem;
 }
 ul{
   margin: 0 3rem;
