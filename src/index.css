@@ -64,13 +64,50 @@
   .login-container {
     padding: 40px;
     width: 45rem;
-    height: 36rem;
+    height: 28rem;
     border-radius: 25px;
   }
+  .login-container{
+    width: 80%;
+     }
+     .inp{
+       justify-content: center;
+       align-items: center;
+       font-size: 1rem;
+     }
+     .label{
+       font-size: 2rem;
+     }
+     .tax{
+       width: 100%;
+     }
+     .tax-inp{
+       font-size: 1.2rem;
+       padding: 1.4rem;
+       margin-right: 2rem;
+       width: 13rem;
+   
+     }
+     label{
+       font-size: 1.2rem;
+     }
+   
+     .submit{
+       justify-content: center;
+       margin-left: 4rem;
+     }
+     .form-control{
+   font-size: 1.2rem;
+   height: 2.7rem;
+     }
+   
+     .btn{
+       margin-right: 2rem;
+     }
 
   label {
     padding: 20px;
-    font-size: xxx-large;
+    font-size: 1.5rem;
   }
 
   button {
@@ -86,6 +123,9 @@
     font-size: xx-large;
     border-radius: 15px;
   }
+
+
+  
 }
 
 .bill {
@@ -363,4 +403,96 @@ li {
 }
 ul{
   margin: 0 3rem;
+}
+
+
+@media (max-width: 360px) {
+   .contain {
+    flex-direction: column;
+  }
+
+  .arrang{
+    margin-left: 3.5rem;
+  }
+
+
+  .sidenav {
+    width: 100%;
+    position: static;
+    overflow-y: visible;
+    height: auto;
+  }
+
+  .box {
+    padding-left: 0;
+  } 
+
+   .customerpage {
+    width: 100%;
+    margin: 0.5rem;
+    padding: 0;
+    height: 100vh;
+  }
+
+  table {
+    width: 80%;
+    border-collapse: collapse;
+  } 
+  th,
+  td {
+    width: auto;
+    border: 1px solid black;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  th {
+    background-color: #22a328;
+  }
+  td {
+    background-color: #a37a22;
+  }
+
+  .login-container{
+ width: 80%;
+ height: 26rem;
+  }
+  .inp{
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+  }
+  .label{
+    font-size: 1.6rem;
+  }
+  .home{
+    width: 100%;
+    margin: 0 0;
+  }
+  .tax{
+    width: 100%;
+  }
+  .tax-inp{
+    font-size: 1.2rem;
+    padding: 1.4rem;
+    margin-right: 2rem;
+    width: 13rem;
+
+  }
+  label{
+    font-size: 1.2rem;
+  }
+
+  .submit{
+    justify-content: center;
+    margin-left: 4rem;
+  }
+  .form-control{
+font-size: 1.2rem;
+height: 2.7rem;
+  }
+
+  .btn{
+    margin-right: 2rem;
+  }
+
 }

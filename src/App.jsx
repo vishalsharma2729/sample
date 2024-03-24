@@ -5,7 +5,6 @@ import Billingpage from './Pages/Billingpage'
 import Sidenav from './components/Sidenav'
 import Customerlist from './Pages/Customerlist'
 import Home from './Pages/Home'
-import { ToastContainer } from 'react-toastify'
 
 
 export default function App() {

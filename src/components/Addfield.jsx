@@ -155,8 +155,8 @@ export default function Addfield({ next, prev }) {
               placeholder="Enter price"
             />
           </div>
-          <div>
-            <p>Total amount</p>
+          <div >
+            <p>Total amount:(Auto generated)</p>
             <input
               className="form-control"
               type="number"
@@ -166,7 +166,7 @@ export default function Addfield({ next, prev }) {
               placeholder="Total"
             />
           </div>
-          {index == 0 ? (
+          {index === 0 ? (
             ""
           ) : (
             <div>
@@ -186,7 +186,7 @@ export default function Addfield({ next, prev }) {
         </div>
         <br />
         <br />
-        <div className="btn">
+        <div className="calculatebtn">
           <button className="button" onClick={Addproduct}>
             calculate
           </button>
@@ -194,7 +194,7 @@ export default function Addfield({ next, prev }) {
       </div>
 
       <div className="tax">
-        <div>
+        <div className="subdiv">
           <label>Subtotal</label> &ensp;
           <input
             className="tax-inp"
@@ -205,7 +205,7 @@ export default function Addfield({ next, prev }) {
             placeholder="Subtotal"
           />
         </div>
-        <div>
+        <div className="subdiv">
           <label>Tax 18%</label> &ensp;
           <input
             className="tax-inp"
@@ -217,7 +217,7 @@ export default function Addfield({ next, prev }) {
           />
         </div>
         <div>
-          <label>Grandtotal</label> &ensp;
+          <label className="subdiv">Grandtotal</label> &ensp;
           <input
             className="tax-inp"
             type="number"

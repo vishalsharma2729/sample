@@ -58,7 +58,7 @@ export default function Billingpage() {
     if (event.key === "Backspace") {
       console.log(inputs.length);
       for (let i = 0; i < inputs.length; i++) {
-        if (inputs[i].value == "") {
+        if (inputs[i].value === "") {
           if (inputs[i] === focused) {
             let nextIndex = (i - 1) % inputs.length;
             inputs[nextIndex].focus();
@@ -105,7 +105,7 @@ export default function Billingpage() {
       <br />
       <div className="bill">
         <div>
-          <p>Invoice no:</p>
+          <p>Invoice no:(Auto generated)</p>
           <input
             className="form-control"
             type="number"
@@ -129,7 +129,7 @@ export default function Billingpage() {
           />
         </div>
         <div>
-          <p>Billing Date:</p>
+          <p>Billing Date:(Auto generated)</p>
           <input
             className="form-control"
             type="text"
