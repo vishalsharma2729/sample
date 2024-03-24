@@ -63,7 +63,7 @@
 
 
 .bill {
-  margin: 0 1rem;
+  margin: 0 1.8rem;
   width: 90%;
   display: flex;
   flex-wrap: wrap;
@@ -73,7 +73,7 @@
 }
 
 .billing {
-  margin: 0 1rem;
+  margin: 0 1.8rem;
   display: flex;
   flex-wrap: wrap;
   gap: 1em;
@@ -190,9 +190,9 @@ h1:hover{
 
 .customerpage {
   margin-right: 0.5rem;
-  margin-left: -4rem;
+  margin-left: -3rem;
   padding: 0;
-  height: 100vh;
+  height: 100%;
 }
 
 table {
@@ -224,7 +224,7 @@ td {
 .contain {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 99.3%;
 }
 
 .sidenav {
@@ -256,10 +256,6 @@ td {
   width: 86%;
 }
 
-
-
-
-
 li {
   font-size: 24px;
   padding: 8px;
@@ -267,18 +263,17 @@ li {
   font-weight: 600;
 }
 
-
 .billPage,
 .cusList {
   text-align: center;
-  
 }
 
 .home{
   background-image: url("https://cdn.pixabay.com/photo/2018/04/29/21/27/nature-3361174_1280.jpg");
   background-size:auto;
   margin-left: -4.5rem;
-  height: auto;
+ height: 34.9rem;
+ width: 107.7%;
 }
 ul{
   margin: 0 3rem;
@@ -341,6 +336,7 @@ ul{
   .customerpage {
     padding: 0;
     height: 100vh;
+
   }
 
   table {
