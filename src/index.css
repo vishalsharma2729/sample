@@ -331,6 +331,20 @@ td {
     margin-left: 3.5rem;
   }
 
+  .tax{
+    width: 100%;
+  }
+  .tax-inp{
+    font-size: 1.2rem;
+    padding: 1.4rem;
+    margin-right: 2rem;
+    width: 13rem;
+  }
+  
+  label{
+    font-size: 1.2rem;
+  }
+
   .bill {
     display: flex;
     justify-content: center;
@@ -399,12 +413,13 @@ li {
 .home{
   background-image: url("https://cdn.pixabay.com/photo/2018/04/29/21/27/nature-3361174_1280.jpg");
   background-size:auto;
-  margin-left: -4.35rem;
 }
 ul{
   margin: 0 3rem;
 }
 
+
+/* media query 360px******************* */
 
 @media (max-width: 360px) {
    .contain {
@@ -476,8 +491,8 @@ ul{
     padding: 1.4rem;
     margin-right: 2rem;
     width: 13rem;
-
   }
+  
   label{
     font-size: 1.2rem;
   }
