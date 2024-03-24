@@ -20,6 +20,7 @@
 .container {
   background-image: url("https://cdn.pixabay.com/photo/2017/08/30/07/52/money-2696219_1280.jpg");
   margin-left: -4.35rem;
+  width:107.5%;
 }
 
 .login-container {
@@ -60,90 +61,15 @@
   background-color: #006fe6;
 }
 
-@media only screen and (max-device-width: 480px) {
-  .login-container {
-    padding: 40px;
-    width: 45rem;
-    height: 28rem;
-    border-radius: 25px;
-  }
-  .login-container{
-    width: 80%;
-     }
-     .inp{
-       justify-content: center;
-       align-items: center;
-       font-size: 1rem;
-     }
-     .label{
-       font-size: 2rem;
-     }
-     .tax{
-       width: 100%;
-     }
-     .tax-inp{
-       font-size: 1.2rem;
-       padding: 1.4rem;
-       margin-right: 2rem;
-       width: 13rem;
-   
-     }
-     label{
-       font-size: 1.2rem;
-     }
-   
-     .submit{
-       justify-content: center;
-       margin-left: 4rem;
-     }
-     .form-control{
-   font-size: 1.2rem;
-   height: 2.7rem;
-     }
-   
-     .btn{
-       margin-right: 2rem;
-     }
-
-  label {
-    padding: 20px;
-    font-size: 1.5rem;
-  }
-
-  button {
-    font-size: xxx-large;
-    margin-top: 1rem;
-    padding: 15px;
-    border-radius: 15px;
-  }
-
-  input {
-    padding: 30px;
-    width: 91%;
-    font-size: xx-large;
-    border-radius: 15px;
-  }
-
-  .home{
-    background-image: url("https://cdn.pixabay.com/photo/2018/04/29/21/27/nature-3361174_1280.jpg");
-    background-size:auto;
-  }
-
-  .box {
-    flex: 1;
-   margin-left: 4.5rem;
-  }
-
-  
-}
 
 .bill {
   margin: 0 1rem;
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
-  margin-right: 60px;
-  gap: 1em;
+  /* margin-right: 60px; */
+  gap: 1rem;
+
 }
 
 .billing {
@@ -184,7 +110,6 @@ h1:hover{
   box-sizing: border-box;
 }
 .button {
-  /* margin-left: 800px; */
   float: right;
 }
 .arrang {
@@ -289,7 +214,6 @@ td {
 }
 
 .note {
-  /* margin-left: 200px; */
   padding: 1rem;
   font-size: 20px;
   text-align: center;
@@ -300,11 +224,12 @@ td {
 .contain {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 .sidenav {
   flex: 0 0 auto;
-  width: 150px;
+  width: 13%;
   position: fixed;
   height: 100%;
   overflow-y: auto;
@@ -328,9 +253,37 @@ td {
 .box {
   flex: 1;
   padding-left: 220px;
+  width: 86%;
 }
 
-/* Add media query for responsiveness */
+
+
+
+
+li {
+  font-size: 24px;
+  padding: 8px;
+  color: black;
+  font-weight: 600;
+}
+
+
+.billPage,
+.cusList {
+  text-align: center;
+  
+}
+
+.home{
+  background-image: url("https://cdn.pixabay.com/photo/2018/04/29/21/27/nature-3361174_1280.jpg");
+  background-size:auto;
+  margin-left: -4.5rem;
+}
+ul{
+  margin: 0 3rem;
+}
+
+/* Add media query for responsiveness start */
 @media (max-width: 768px) {
   .contain {
     flex-direction: column;
@@ -356,8 +309,9 @@ td {
 
   .bill {
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
+    margin-left: 2.4rem;
     
   }
 
@@ -406,39 +360,20 @@ td {
   td {
     background-color: #a37a22;
   }
-
+  
 }
 
 /* end**********************************************8 */
 
-li {
-  font-size: 24px;
-  padding: 8px;
-  color: black;
-  font-weight: 600;
-}
 
 
-.billPage,
-.cusList {
-  text-align: center;
-}
 
-.home{
-  background-image: url("https://cdn.pixabay.com/photo/2018/04/29/21/27/nature-3361174_1280.jpg");
-  background-size:auto;
-  margin-left: -4.5rem;
-}
-ul{
-  margin: 0 3rem;
-}
-
-
-/* media query 360px******************* */
+/* media query 360px******************* start*/
 
 @media (max-width: 360px) {
    .contain {
     flex-direction: column;
+   
   }
 
   .arrang{
@@ -526,3 +461,90 @@ height: 2.7rem;
   }
 
 }
+
+/* /end******************************************************** */
+
+
+
+/* media query 480px******************* start*/
+@media only screen and (max-device-width: 480px) {
+  .login-container {
+    padding: 40px;
+    width: 45rem;
+    height: 28rem;
+    border-radius: 25px;
+  }
+  .login-container{
+    width: 100%;
+     }
+     .inp{
+       justify-content: center;
+       align-items: center;
+       font-size: 1rem;
+     }
+     .label{
+       font-size: 2rem;
+     }
+     .tax{
+       width: 100%;
+     }
+     .tax-inp{
+       font-size: 1.2rem;
+       padding: 1.4rem;
+       margin-right: 2rem;
+       width: 13rem;
+   
+     }
+     label{
+       font-size: 1.2rem;
+     }
+   
+     .submit{
+       justify-content: center;
+       margin-left: 4rem;
+     }
+     .form-control{
+   font-size: 1.2rem;
+   height: 2.7rem;
+     }
+   
+     .btn{
+       margin-right: 2rem;
+     }
+
+  label {
+    padding: 20px;
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: xxx-large;
+    margin-top: 1rem;
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+  input {
+    padding: 30px;
+    width: 91%;
+    font-size: xx-large;
+    border-radius: 15px;
+  }
+
+  .home{
+    background-image: url("https://cdn.pixabay.com/photo/2018/04/29/21/27/nature-3361174_1280.jpg");
+    background-size:auto;
+  }
+
+  .box {
+    flex: 1;
+   margin-left: 4.5rem;
+   width: 92%;
+  }
+
+  .sidenav{
+    width: 100%;
+  }
+  
+}
+/* end************************************************************************ */
